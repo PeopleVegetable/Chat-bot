@@ -31,7 +31,7 @@ class MessageRequest(BaseModel):
 # Конфигурация
 BOT_TOKEN = "7922602540:AAFbH6OWcmWfGiGf9HrbAj0Y-bA5pKwP3FY"
 CHAT_ID = "-4617839044"
-PORT = 20121  # Выбранный порт из диапазона 10000-50000
+PORT = 34587  # Выбранный порт из диапазона 10000-50000
 
 # Инициализация бота
 bot = Bot(token=BOT_TOKEN)

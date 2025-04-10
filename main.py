@@ -20,7 +20,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Инициализация FastAPI
-app = FastAPI(title="Notification Builder AI")
+app = FastAPI(title="RJ45")
 
 
 # Модель данных для входящего запроса
@@ -29,9 +29,9 @@ class MessageRequest(BaseModel):
 
 
 # Конфигурация
-BOT_TOKEN = "7922602540:AAFbH6OWcmWfGiGf9HrbAj0Y-bA5pKwP3FY"
-CHAT_ID = "-4617839044"
-PORT = 34587  # Выбранный порт из диапазона 10000-50000
+BOT_TOKEN = "8127565713:AAEjTVsizesQWp58-rFECqsOARzfmaU9gmY"
+CHAT_ID = "-4753969005"
+PORT = 20121  # Выбранный порт из диапазона 10000-50000
 
 # Инициализация бота
 bot = Bot(token=BOT_TOKEN)

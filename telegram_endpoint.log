@@ -1,0 +1,4 @@
+2025-04-10 11:43:43,154 - INFO - Received request: Hi!...
+2025-04-10 11:44:09,511 - INFO - Message sent successfully. Message ID: 2
+2025-04-10 11:44:58,169 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001FFB98906E0>
